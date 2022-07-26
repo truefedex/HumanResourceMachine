@@ -2,3 +2,50 @@
 
 ## Targets
 Size: 17 / Speed: 76
+
+## Size / Speed
+```
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 14
+    COPYTO   12
+    INBOX   
+b:
+    SUB      15
+    JUMPN    c
+    COPYTO   13
+    BUMPUP   12
+    COPYFROM 13
+    JUMP     b
+c:
+    ADD      15
+    OUTBOX  
+    COPYFROM 12
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 12
+eJzjYmBg8Mya67k5Jz0goHJT28YJs48BhRi0ewt9LrZ4ZvKUvp3Jn5F/kmEUjIJRMCwBADO5D08;
+
+DEFINE LABEL 13
+eJzjYWBgmNKfZPa754rTohbbhPuVZnWGxdemdKacvACUYsjLWKzdlzfZ90SBYLJmWXI1wygYBaNgWAEA
+SE0TcQ;
+
+DEFINE LABEL 14
+eJzzZmBguCzs6r9PcX7Ybj3bhN9irlO2CW1fsIpbft8PwX97zkk3bbmqlbiZ03TJVqBShgz3DZWMXmZ1
+1j7LanvCOUpCopryM+OMUp7GT40STTgd/COu0KcvxsItPXKT4+eQe3aufntt1TzaXN647vdycHkbouw8
+Pf2Ik2itsvPE1j2uHdOOuz+eu9133cby4Nw9HJHJB5gSPx9gTfu3RyfTZBvIvoBKCzft6v6KhsqT3XZV
+dbMaKhet4KvKXg+Su195xSm19rjlzcZco9q2XKOAbi4br8kvrUByRfuv+d/a89XZc3uElfimJLO9K19a
+LVhxz8582cHwG0uNUiYv5O0zWSg5fcOiuGU6SzTW/l+xZKvI2oodd9dX7DDZLLw1eKfgiuN7f0xlPDC7
+sf9AdhbjgVVBDKNgFAxDAACZwYVE;
+
+DEFINE LABEL 15
+eJxzYmBgOC320uqgiGfmQZHXPb/FFq04Lda0BSjM8Fss1+iBlLyJkk6YLgNYnX2uvuLzIhA7yf97gEJA
+oc8a772239yPWxa4RFi52XwPeG8hHW9p2tbJaZo+dZH5+2XZVhpr7ewvbLrumLj5javnume+agvYQrRK
+g0KfpgqEHQxPDdnidy34pBvIzBcp8iZXUyc6sKZd8y9LvVTVmD63rzuzbpZKTtfiuLz3ywyLbZfalLLM
+l6zhKDGr3ZkxtdY6uKB+g8m3Jvvc400PJtxsdF8IMufHTBOdNTMKJ+6bHjR33/Rb60Bi7bPCdNtn3TEs
+mb3BZPeSxdr6KxdrT1h3yfTXBlGLtB2fzRhGwSgYoQAAfg9uOw;
+
+```
